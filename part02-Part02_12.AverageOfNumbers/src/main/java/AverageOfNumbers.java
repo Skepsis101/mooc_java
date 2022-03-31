@@ -24,6 +24,6 @@ public class AverageOfNumbers {
             }
         }
         averageOfNumbers = (sumOfNumbers / amountOfNumbers);
-        System.out.println("Average of the number is: " + averageOfNumbers);
+        System.out.println("Average of the numbers: " + averageOfNumbers);
     }
 }
