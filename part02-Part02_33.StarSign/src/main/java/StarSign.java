@@ -22,8 +22,8 @@ public class StarSign {
         printRectangle(width, height);
 
         System.out.println("Give the height of the triangle:");
-        int triangle = Integer.valueOf(scanner.nextLine());
-        printTriangle(triangle);
+        int triangleSize = Integer.valueOf(scanner.nextLine());
+        printTriangle(triangleSize);
 
     }
 
@@ -58,5 +58,8 @@ public class StarSign {
 
     public static void printTriangle(int size) {
         // fourth part of the exercise
+        for (int i = 1; i <= size; i++) {
+            printStars(i);
+        }
     }
 }
