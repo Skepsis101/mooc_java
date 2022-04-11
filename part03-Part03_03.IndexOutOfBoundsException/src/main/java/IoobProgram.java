@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class IoobProgram {
 
     public static void main(String[] args) {
-        // Modify this program to cause an indexOutOfBoundsException 
+        // Modify this program to cause an indexOutOfBoundsException
 
         ArrayList<String> lines = new ArrayList<>();
         lines.add("Never has a man influenced physics so profoundly as Niels Bohr in the early 1900's");
@@ -15,7 +15,7 @@ public class IoobProgram {
         lines.add("up with his quantum theory while studying...");
 
         for (String line : lines) {
-            System.out.println(line);
+            System.out.println(lines.get(6));
         }
 
     }
