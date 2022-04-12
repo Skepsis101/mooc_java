@@ -17,5 +17,13 @@ public class OnlyTheseNumbers {
             numbers.add(number);
         }
 
+        System.out.println("Start: ");
+        int start = Integer.valueOf(scanner.nextInt());
+        System.out.println("Finish: ");
+        int finish = Integer.valueOf(scanner.nextInt());
+
+        for (int i = start; i <= finish; i++) {
+            System.out.println(numbers.get(i));
+        }
     }
 }
