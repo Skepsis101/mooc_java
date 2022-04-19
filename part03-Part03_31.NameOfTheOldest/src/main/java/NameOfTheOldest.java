@@ -23,10 +23,8 @@ public class NameOfTheOldest {
             // incremente o contador de anos inseridos
             amountOfYears++;
 
-            // verifique o maior nome e atualize a variável de controle
-
         }
 
-        System.out.println("Name of the oldest: " + nameOfTheOldest);
+        System.out.println("Name of the oldest: ");
     }
 }
