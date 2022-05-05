@@ -10,5 +10,7 @@ public class Items {
         ArrayList<Item> items = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("test");
+
     }
 }
